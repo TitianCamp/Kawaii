@@ -1,0 +1,81 @@
+body{
+    background-color: #ffd1da;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.heart {
+    opacity: .5;
+    position: relative;
+    top: -150px;
+}
+
+.heart-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.heart-2 {
+    width: 60px;
+    height: 60px;
+}
+
+.heart-3 {
+    width: 80px;
+    height: 80px;
+}
+
+.he1 {
+    animation: line 7s linear infinite;
+}
+
+.he2 {
+    animation: line 7s 3s linear infinite;
+}
+
+.he3 {
+    animation: line 7s 1s linear infinite;
+}
+
+.he4 {
+    animation: line 7s 5s linear infinite;
+}
+
+.he7 {
+    animation: line 7s 7s linear infinite;
+}
+
+.he8 {
+    animation: line 7s 2s linear infinite;
+}
+
+.he9 {
+    animation: line 7s 9s linear infinite;
+}
+
+@keyframes line {
+    0% {transform: translateY(0)}
+    50% {transform: translateY(400px) rotate(180deg) scale(1)}
+    100% {transform: translateY(700px) rotate(360deg) scale(0)}
+}
+
+.container {
+    position: absolute;
+    font-size: 50px;
+    margin-top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Monotype Corsiva";
+    color: #f60031;
+    text-align: center;
+}
+
+.container img {
+    width: 450px;
+    height: 300px;
+}
+
+p {
+    margin: 20px;
+}
